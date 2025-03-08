@@ -1,35 +1,22 @@
 // Before writing the commands, write this "node dist/todo" and remember it won't work if nodeJS is not installed
 //
-// Todo create :
-//
+// Todo create (POST) :
 // todo-creat (command) "todo title";
-//
 // example: 
-//
 // node dist/todo todo-create "hello guys";
 //
 // Todo read (GET) :
-//
 // todo-get (command) id? <optional>;
-//
 // example: 
-//
 // node dist/todo todo-get; <get all todos>
-//
 // node dist/todo todo-get 1; <get todo with id>
 //
 // Todo update (PUT) :
-//
 // todo-update (command) id  "todo tile";
-//
 // example: 
-//
 // node dist/todo todo-update 1 "hello";
 //
 // Todo delete (PUT) :
-//
 // todo-delete (command) id;
-//
 // example: 
-//
 // node dist/todo todo-delete 1;
