@@ -1,0 +1,20 @@
+{
+  "name": "cli-todo",
+  "version": "1.0.0",
+  "main": "dist/todo.js",
+  "scripts": {
+    "start": "node dist/todo.js",
+    "start:dev": "ts-node-dev --respawn src/todo.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Binaliyev/CLI-todo-ts.git"
+  },
+  "author": "Binali Binaliyev",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "ts-node-dev": "^2.0.0"
+  }
+}
